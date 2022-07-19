@@ -1,0 +1,27 @@
+2022-07-18 15:43:00 - Starting GullBozorApplication using Java 1.8.0_281 on DESKTOP-85E437E with PID 8676 (C:\Users\DAVRON\Desktop\GullBozor-master\target\classes started by DAVRON in C:\Users\DAVRON\Desktop\GullBozor-master)
+2022-07-18 15:43:00 - The following 1 profile is active: "dev"
+2022-07-18 15:43:04 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-18 15:43:04 - Finished Spring Data repository scanning in 277 ms. Found 15 JPA repository interfaces.
+2022-07-18 15:43:06 - Tomcat initialized with port(s): 8080 (http)
+2022-07-18 15:43:06 - Starting service [Tomcat]
+2022-07-18 15:43:06 - Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-07-18 15:43:06 - Initializing Spring embedded WebApplicationContext
+2022-07-18 15:43:06 - Root WebApplicationContext: initialization completed in 5637 ms
+2022-07-18 15:43:07 - HikariPool-1 - Starting...
+2022-07-18 15:43:08 - HikariPool-1 - Start completed.
+2022-07-18 15:43:13 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-18 15:43:14 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-18 15:43:14 - Unable to proxy interface-implementing method [public final void org.springframework.web.filter.OncePerRequestFilter.doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain) throws javax.servlet.ServletException,java.io.IOException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-07-18 15:43:14 - Unable to proxy interface-implementing method [public final void org.springframework.web.filter.GenericFilterBean.init(javax.servlet.FilterConfig) throws javax.servlet.ServletException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-07-18 15:43:17 - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@44c27b8b, org.springframework.security.web.context.SecurityContextPersistenceFilter@6aadb092, org.springframework.security.web.header.HeaderWriterFilter@3a13f663, org.springframework.web.filter.CorsFilter@b842275, org.springframework.security.web.authentication.logout.LogoutFilter@7294a684, uz.gullbozor.gullbozor.security.JwtFilter@588d630d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4caf875c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@21688427, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@52a75c12, org.springframework.security.web.session.SessionManagementFilter@17189618, org.springframework.security.web.access.ExceptionTranslationFilter@5897aae1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@24b8a393]
+2022-07-18 15:43:17 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-07-18 15:43:18 - Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-18 15:43:18 - Context refreshed
+2022-07-18 15:43:18 - Found 1 custom documentation plugin(s)
+2022-07-18 15:43:18 - Scanning for api listing references
+2022-07-18 15:43:18 - Generating unique operation named: getAnnouncesByShopIdUsingGET_1
+2022-07-18 15:43:18 - Generating unique operation named: getAnnouncesByShopIdUsingGET_2
+2022-07-18 15:43:19 - Generating unique operation named: deleteAllByPinUsingDELETE_1
+2022-07-18 15:43:19 - Generating unique operation named: deleteByIdUsingDELETE_1
+2022-07-18 15:43:19 - Started GullBozorApplication in 21.372 seconds (JVM running for 26.49)
+2022-07-18 15:44:43 - Initializing Spring DispatcherServlet 'dispatcherServlet'
